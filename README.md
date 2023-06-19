@@ -4,7 +4,7 @@ Each example contains two directories: `old` and `new`. Imagine that `old` is th
 and `new` is the next version of the crate.
 
 Can you find the semver violation that happened between them?
-- `easy_01`: [diff](https://github.com/obi1kenobi/semver-examples/compare/easy_01)
+- `easy_01`: [before](https://github.com/obi1kenobi/semver-examples/blob/main/easy_01/old/src/lib.rs), [after](https://github.com/obi1kenobi/semver-examples/blob/main/easy_01/new/src/lib.rs), [diff](https://github.com/obi1kenobi/semver-examples/compare/easy_01)
 
 #### License
 
