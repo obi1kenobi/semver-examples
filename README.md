@@ -5,6 +5,7 @@ and `new` is the next version of the crate.
 
 Can you find the semver violation that happened between them?
 - `easy_01`: [before](https://github.com/obi1kenobi/semver-examples/blob/main/easy_01/old/src/lib.rs), [after](https://github.com/obi1kenobi/semver-examples/blob/main/easy_01/new/src/lib.rs), [diff](https://github.com/obi1kenobi/semver-examples/compare/easy_01)
+- `med_01`: [before](https://github.com/obi1kenobi/semver-examples/blob/main/med_01/old/src/lib.rs), [after](https://github.com/obi1kenobi/semver-examples/blob/main/med_01/new/src/lib.rs), [diff](https://github.com/obi1kenobi/semver-examples/compare/med_01)
 
 #### License
 
