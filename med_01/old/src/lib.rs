@@ -1,6 +1,7 @@
 pub struct Foo {
     pub first: i64,
     pub second: bool,
+    pub third: Option<String>,
 }
 
 impl Foo {
@@ -8,6 +9,7 @@ impl Foo {
         Self {
             first,
             second,
+            third: None,  // set to a default value
         }
     }
 }
