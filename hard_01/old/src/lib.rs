@@ -1,11 +1,14 @@
+use std::rc::Rc;
+
 #[derive(Clone)]
 struct Foo {
-    value: &'static str,
+    value: Rc<str>,  // support non-static strings;
+                     // ref-count for cheap cloning
 }
 
 fn make_foo() -> Foo {
     Foo {
-        value: "some string",
+        value: Rc::from("some string"),
     }
 }
 
