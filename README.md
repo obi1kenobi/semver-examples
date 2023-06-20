@@ -4,10 +4,13 @@ Each example contains two directories: `old` and `new`. Imagine that `old` is th
 and `new` is the next version of the crate.
 
 Can you find the semver violation that happened between them?
-- `easy_01`: [before](https://github.com/obi1kenobi/semver-examples/blob/main/easy_01/old/src/lib.rs), [after](https://github.com/obi1kenobi/semver-examples/blob/main/easy_01/new/src/lib.rs), [diff](https://github.com/obi1kenobi/semver-examples/compare/easy_01)
-- `med_01`: [before](https://github.com/obi1kenobi/semver-examples/blob/main/med_01/old/src/lib.rs), [after](https://github.com/obi1kenobi/semver-examples/blob/main/med_01/new/src/lib.rs), [diff](https://github.com/obi1kenobi/semver-examples/compare/med_01)
-- `med_02`: [before](https://github.com/obi1kenobi/semver-examples/blob/main/med_02/old/src/lib.rs), [after](https://github.com/obi1kenobi/semver-examples/blob/main/med_02/new/src/lib.rs), [diff](https://github.com/obi1kenobi/semver-examples/compare/med_02)
-- `hard_01`: [before](https://github.com/obi1kenobi/semver-examples/blob/main/hard_01/old/src/lib.rs), [after](https://github.com/obi1kenobi/semver-examples/blob/main/hard_01/new/src/lib.rs), [diff](https://github.com/obi1kenobi/semver-examples/compare/hard_01)
+
+| example   | previous version | next version | diff |
+| --------- | ---------------- | ------------ | ---- |
+| `easy_01` | [link](https://github.com/obi1kenobi/semver-examples/blob/main/easy_01/old/src/lib.rs) | [link](https://github.com/obi1kenobi/semver-examples/blob/main/easy_01/new/src/lib.rs) | [diff](https://github.com/obi1kenobi/semver-examples/compare/easy_01) |
+| `med_01`  | [link](https://github.com/obi1kenobi/semver-examples/blob/main/med_01/old/src/lib.rs) | [link](https://github.com/obi1kenobi/semver-examples/blob/main/med_01/new/src/lib.rs) | [diff](https://github.com/obi1kenobi/semver-examples/compare/med_01) |
+| `med_02`  | [link](https://github.com/obi1kenobi/semver-examples/blob/main/med_02/old/src/lib.rs) | [link](https://github.com/obi1kenobi/semver-examples/blob/main/med_02/new/src/lib.rs) | [diff](https://github.com/obi1kenobi/semver-examples/compare/med_02) |
+| `hard_01` | [link](https://github.com/obi1kenobi/semver-examples/blob/main/hard_01/old/src/lib.rs) | [link](https://github.com/obi1kenobi/semver-examples/blob/main/hard_01/new/src/lib.rs) | [diff](https://github.com/obi1kenobi/semver-examples/compare/hard_01) |
 
 #### License
 
