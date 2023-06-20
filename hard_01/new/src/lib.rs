@@ -6,6 +6,12 @@ struct Foo {
                      // ref-count for cheap cloning
 }
 
+fn make_foo() -> Foo {
+    Foo {
+        value: Rc::from("some string"),
+    }
+}
+
 #[derive(Clone)]
 pub struct Bar {
     int: i64,
@@ -15,8 +21,6 @@ pub struct Bar {
 pub fn barify() -> Bar {
     Bar {
         int: 0,
-        foo: Foo {
-            value: Rc::from("some string"),
-        }
+        foo: make_foo(),
     }
 }

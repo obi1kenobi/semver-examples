@@ -3,6 +3,12 @@ struct Foo {
     value: &'static str,
 }
 
+fn make_foo() -> Foo {
+    Foo {
+        value: "some string",
+    }
+}
+
 #[derive(Clone)]
 pub struct Bar {
     int: i64,
@@ -12,8 +18,6 @@ pub struct Bar {
 pub fn barify() -> Bar {
     Bar {
         int: 0,
-        foo: Foo {
-            value: "some string",
-        }
+        foo: make_foo(),
     }
 }
